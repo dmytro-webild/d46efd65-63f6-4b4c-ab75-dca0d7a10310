@@ -29,42 +29,30 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Products",
-          id: "products",
-        },
+          name: "Products",          id: "products"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Ramic Traders"
+      button={{ text: "Get Started" }}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroLogoBillboardSplit
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       logoText="Clean Living, Better Health"
       description="Affordable hygiene products manufactured in Kenya for homes, schools, and businesses."
       buttons={[
         {
-          text: "Order Now",
-          href: "#products",
-        },
+          text: "Order Now",          href: "#products"},
         {
-          text: "Contact Us on WhatsApp",
-          href: "#contact",
-        },
+          text: "Contact Us on WhatsApp",          href: "#contact"},
       ]}
       layoutOrder="default"
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BZv0eSU6ArAZxyl8yG27Bj6pvh/modern-fmcg-hygiene-product-manufacturin-1774709270810-75cd8746.png"
@@ -81,17 +69,11 @@ export default function LandingPage() {
       description="Ramic Traders is a Kenyan hygiene manufacturing company dedicated to enhancing public health standards. We provide affordable, high-quality hygiene products while driving job creation and supporting our local community."
       bulletPoints={[
         {
-          title: "Public Health",
-          description: "Focused on improving community wellness.",
-        },
+          title: "Public Health",          description: "Focused on improving community wellness."},
         {
-          title: "Affordability",
-          description: "Ensuring everyone has access to essential hygiene.",
-        },
+          title: "Affordability",          description: "Ensuring everyone has access to essential hygiene."},
         {
-          title: "Job Creation",
-          description: "Empowering local youth and women through employment.",
-        },
+          title: "Job Creation",          description: "Empowering local youth and women through employment."},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BZv0eSU6ArAZxyl8yG27Bj6pvh/professional-team-of-kenyan-workers-in-a-1774709268913-9eb8dbeb.png"
       imageAlt="Our team at work"
@@ -107,26 +89,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p1",
-          name: "Hand Sanitizer",
-          price: "From KES 100",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BZv0eSU6ArAZxyl8yG27Bj6pvh/premium-bottle-of-clear-hand-sanitizer-m-1774709268207-833f0cd7.png",
-          imageAlt: "Hand Sanitizer",
-        },
+          id: "p1",          name: "Hand Sanitizer",          price: "From KES 100",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BZv0eSU6ArAZxyl8yG27Bj6pvh/premium-bottle-of-clear-hand-sanitizer-m-1774709268207-833f0cd7.png",          imageAlt: "Hand Sanitizer"},
         {
-          id: "p2",
-          name: "Shower Gel",
-          price: "From KES 150",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BZv0eSU6ArAZxyl8yG27Bj6pvh/modern-shower-gel-bottle-with-elegant-de-1774709268375-94949c0d.png",
-          imageAlt: "Shower Gel",
-        },
+          id: "p2",          name: "Shower Gel",          price: "From KES 150",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BZv0eSU6ArAZxyl8yG27Bj6pvh/modern-shower-gel-bottle-with-elegant-de-1774709268375-94949c0d.png",          imageAlt: "Shower Gel"},
         {
-          id: "p3",
-          name: "Hand Wash Powder",
-          price: "From KES 80",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BZv0eSU6ArAZxyl8yG27Bj6pvh/hand-wash-powder-packaging-eco-friendly--1774709270735-0684251b.png",
-          imageAlt: "Hand Wash Powder",
-        },
+          id: "p3",          name: "Hand Wash Powder",          price: "From KES 80",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BZv0eSU6ArAZxyl8yG27Bj6pvh/hand-wash-powder-packaging-eco-friendly--1774709270735-0684251b.png",          imageAlt: "Hand Wash Powder"},
       ]}
       title="Our Products"
       description="High-quality hygiene solutions formulated for effectiveness and safety."
@@ -141,20 +108,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "500+",
-          description: "Jobs Created",
-        },
+          id: "m1",          value: "500+",          description: "Jobs Created"},
         {
-          id: "m2",
-          value: "10,000+",
-          description: "Lives Improved",
-        },
+          id: "m2",          value: "10,000+",          description: "Lives Improved"},
         {
-          id: "m3",
-          value: "100%",
-          description: "Kenyan Made",
-        },
+          id: "m3",          value: "100%",          description: "Kenyan Made"},
       ]}
       title="Our Impact"
       description="Measuring our contribution to healthier Kenyan communities."
@@ -165,20 +123,15 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={true}
       background={{
-        variant: "radial-gradient",
-      }}
+        variant: "radial-gradient"}}
       tag="Get In Touch"
       title="Partner with Ramic Traders"
       description="Ready to stock our products or want to know more? Contact our team in Kenya."
       buttons={[
         {
-          text: "Call Us: +254 700 000 000",
-          href: "tel:+254700000000",
-        },
+          text: "Call Us: +254 700 000 000",          href: "tel:+254700000000"},
         {
-          text: "Message on WhatsApp",
-          href: "https://wa.me/254700000000",
-        },
+          text: "Message on WhatsApp",          href: "https://wa.me/254700000000"},
       ]}
     />
   </div>
